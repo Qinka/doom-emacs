@@ -3,9 +3,12 @@ EMACS_FLAGS=--eval '(setq user-emacs-directory default-directory)' -l core/core.
 EMACS=emacs --quick --batch $(EMACS_FLAGS)
 EMACSI=emacs -q $(EMACS_FLAGS)
 
-MODULES=$(patsubst modules/%, %, $(shell find modules/ -maxdepth 2 -type d))
+MODULES=$(patsubst modules/%, %, $(shell ${FIND} modules/ -maxdepth 2 -type d))
 
 all: autoloads autoremove install
+
+echo:
+	@echo ${MODULES}
 
 ## Shortcuts
 a: autoloads
@@ -18,7 +21,7 @@ ce: compile-elpa
 
 ## Package management
 install: init.el .local/autoloads.el
-	@$(EMACS) -f doom//packages-install
+	$(EMACS) -f doom//packages-install
 
 update: init.el .local/autoloads.el
 	@$(EMACS) -f doom//packages-update

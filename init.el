@@ -71,7 +71,7 @@
       ;macos             ; MacOS-specific commands
        make              ; run make tasks from Emacs
        neotree           ; a project drawer, like NERDTree for vim
-       password-store    ; password manager for nerds
+       ;password-store    ; password manager for nerds
        rotate-text       ; cycle region at point between text candidates
        term              ; terminals in Emacs
        tmux              ; an API for interacting with tmux
@@ -80,45 +80,45 @@
        :lang
        assembly          ; assembly for fun or debugging
        cc                ; C/C++/Obj-C madness
-       crystal           ; ruby at the speed of c
-       clojure           ; java with a lisp
+       ;crystal           ; ruby at the speed of c
+       ;clojure           ; java with a lisp
        csharp            ; unity, .NET, and mono shenanigans
        data              ; config/data formats
-       elixir            ; erlang done right
-       elm               ; care for a cup of TEA?
+       ;elixir            ; erlang done right
+       ;elm               ; care for a cup of TEA?
        emacs-lisp        ; drown in parentheses
-       go                ; the hipster dialect
+       ;go                ; the hipster dialect
        (haskell +intero) ; a language that's lazier than I am
        hy                ; readability of scheme w/ speed of python
        (java +meghanada) ; the poster child for carpal tunnel syndrome
        javascript        ; all(hope(abandon(ye(who(enter(here))))))
-       julia             ; a better, faster MATLAB
+       ;julia             ; a better, faster MATLAB
        latex             ; writing papers in Emacs has never been so fun
-       ledger            ; an accounting system in Emacs
+       ;ledger            ; an accounting system in Emacs
        lua               ; one-based indices? one-based indices
        markdown          ; writing docs for people to ignore
-       ocaml             ; an objective camel
-       (org              ; organize your plain life in plain text
-        +attach          ; custom attachment system
-        +babel           ; running code in org
-        +capture         ; org-capture in and outside of Emacs
-        +export          ; centralized export system + more backends
-        +present         ; Emacs for presentations
+       ;ocaml             ; an objective camel
+       ;(org              ; organize your plain life in plain text
+        ;+attach          ; custom attachment system
+        ;+babel           ; running code in org
+        ;+capture         ; org-capture in and outside of Emacs
+        ;+export          ; centralized export system + more backends
+        ;+present         ; Emacs for presentations
         ;; TODO +publish
         )
-       perl              ; write code no one else can comprehend
-       php               ; make php less awful to work with
-       plantuml          ; diagrams for confusing people more
-       purescript        ; javascript, but functional
+       ;perl              ; write code no one else can comprehend
+       ;php               ; make php less awful to work with
+       ;plantuml          ; diagrams for confusing people more
+       ;purescript        ; javascript, but functional
        python            ; beautiful is better than ugly
-       rest              ; Emacs as a REST client
-       ruby              ; 1.step do {|i| p "Ruby is #{i.even? ? 'love' : 'life'}"}
-       rust              ; Fe2O3.unwrap().unwrap().unwrap().unwrap()
-       scala             ; java, but good
+       ;rest              ; Emacs as a REST client
+       ;ruby              ; 1.step do {|i| p "Ruby is #{i.even? ? 'love' : 'life'}"}
+       ;rust              ; Fe2O3.unwrap().unwrap().unwrap().unwrap()
+       ;scala             ; java, but good
        sh                ; she sells (ba|z)sh shells on the C xor
-       swift             ; who asked for emoji variables?
-       typescript        ; javascript, but better
-       web               ; the tubes
+       ;swift             ; who asked for emoji variables?
+       ;typescript        ; javascript, but better
+       ;web               ; the tubes
 
        ;; Applications are complex and opinionated modules that transform Emacs
        ;; toward a specific purpose. They may have additional dependencies and
@@ -135,5 +135,5 @@
        ;; the defaults module. It contains a Spacemacs-inspired keybinding
        ;; scheme and additional ex commands for evil-mode. Use it as a reference
        ;; for your own.
-       :private default)
+       ;:private default)
 
