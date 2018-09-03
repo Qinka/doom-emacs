@@ -44,8 +44,8 @@
 
        :completion
        company           ; the ultimate code completion backend
-       ivy               ; a search engine for love and life
-      ;helm              ; the *other* search engine for love and life
+       ;ivy               ; a search engine for love and life
+       helm              ; the *other* search engine for love and life
       ;ido               ; the other *other* search engine...
 
        :ui
@@ -58,7 +58,7 @@
        evil-goggles      ; display visual hints when editing in evil
       ;unicode           ; extended unicode support for various languages
       ;tabbar            ; FIXME an (incomplete) tab bar for Emacs
-       vi-tilde-fringe   ; fringe tildes to mark beyond EOB
+       ;vi-tilde-fringe   ; fringe tildes to mark beyond EOB
        (window-select +ace-window)  ; visually switch windows
 
        :tools
@@ -135,6 +135,6 @@
        ;; the defaults module. It contains a Spacemacs-inspired keybinding
        ;; scheme and additional ex commands for evil-mode. Use it as a reference
        ;; for your own.
-       ;:private default
+       :private default
        )
 

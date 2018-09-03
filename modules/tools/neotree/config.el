@@ -9,9 +9,9 @@
              neo-global--with-buffer
              neo-global--window-exists-p)
   :config
-  (setq neo-create-file-auto-open nil
-        neo-auto-indent-point nil
-        neo-autorefresh nil
+  (setq neo-create-file-auto-open t
+        neo-auto-indent-point t
+        neo-autorefresh t
         neo-mode-line-type 'none
         neo-window-width 25
         neo-show-updir-line nil
